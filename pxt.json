@@ -8,7 +8,15 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "main.ts",
+        "udriver_pca9685.cpp",
+        "udriver_pca9685.h",
+        "udriver_pca9685.ts",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "TransmitterIR.cpp",
+        "TransmitterIR.h"
     ],
     "testFiles": [
         "test.ts"
