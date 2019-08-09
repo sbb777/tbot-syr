@@ -18,7 +18,8 @@
         "RemoteIR.h",
         "TransmitterIR.cpp",
         "TransmitterIR.h",
-        "maqueenIR.cpp"
+        "maqueenIR.cpp",
+        "shims.d.ts"
     ],
     "testFiles": [
         "test.ts"
