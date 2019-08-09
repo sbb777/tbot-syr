@@ -19,7 +19,8 @@
         "TransmitterIR.cpp",
         "TransmitterIR.h",
         "maqueenIR.cpp",
-        "shims.d.ts"
+        "shims.d.ts",
+        "enums.d.ts"
     ],
     "testFiles": [
         "test.ts"
