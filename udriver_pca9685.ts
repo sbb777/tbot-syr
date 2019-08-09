@@ -539,7 +539,7 @@ namespace SUPCA908041 {
     //% mutate=objectdestructuring
     //% mutateText=Packeta
     //% mutateDefaults="myparam:message"
-    //% blockId=IR_callbackUser block="on obloq received"
+    //% blockId=IR_callbackUser block="on IR data received"
     //% subcategory=IRdata
     export function IR_callbackUser(maqueencb: (packet: Packeta) => void) {
         maqueenInit()
