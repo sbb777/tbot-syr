@@ -140,7 +140,7 @@ let IrPressEvent = 0
 
 
 
-//% color=#b58900 icon="\uf2db" block="SUPCA908041"
+//% color=#b58900 icon="\uf2db" block="TBOT-SYR"
 namespace SUPCA908041 {
     
     
