@@ -4,14 +4,14 @@
 
     //% color=50 weight=80
     //% icon="\uf1eb"
-    //% deprecated=true
 declare namespace TeddybotIR {
 
     /**
      * button pushed.
      */
     //% blockId=ir_received_left_event
-    //% block="on |%btn| button pressed" shim=TeddybotIR::onPressEvent
+    //% block="on |%btn| button pressed"
+    //% deprecated=true shim=TeddybotIR::onPressEvent
     function onPressEvent(btn: RemoteButton, body: () => void): void;
 
     /**
