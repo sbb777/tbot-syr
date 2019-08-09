@@ -53,9 +53,8 @@ enum class RemoteButton {
   Nine = 0x1a
 };
 
-// //% color=50 weight=80
-// //% icon="\uf1eb"
-
+//% color=50 weight=80
+//% icon="\uf1eb"
 
 namespace TeddybotIR { 
   map<RemoteButton, vA> actions;
@@ -73,6 +72,7 @@ namespace TeddybotIR {
   */
   //% blockId=ir_received_left_event
   //% block="on |%btn| button pressed"
+  //% deprecated=true
   void onPressEvent(RemoteButton btn, Action body) {
     //if(actions.find(btn) == actions.end()) actions[btn] = new vector();
     IRcallbackNum=(int)btn;
