@@ -56,7 +56,7 @@ enum class RemoteButton {
 //% color=50 weight=80
 //% icon="\uf1eb"
 //% deprecated=true
-namespace TeddybotIR { 
+namespace maqueenIR { 
   map<RemoteButton, vA> actions;
   map<RemoteButton, uint32_t> lastact;
   Timer tsb; 
