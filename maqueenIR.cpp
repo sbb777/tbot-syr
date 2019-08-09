@@ -53,9 +53,8 @@ enum class RemoteButton {
   Nine = 0x1a
 };
 
-// //% color=50 weight=80
-// //% icon="\uf1eb"
-
+//% color=50 weight=80
+//% icon="\uf1eb"
 //% deprecated=true
 namespace TeddybotIR { 
   map<RemoteButton, vA> actions;
