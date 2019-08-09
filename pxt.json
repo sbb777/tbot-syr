@@ -17,7 +17,8 @@
         "ReceiverIR.h",
         "RemoteIR.h",
         "TransmitterIR.cpp",
-        "TransmitterIR.h"
+        "TransmitterIR.h",
+        "maqueenIR.cpp",
     ],
     "testFiles": [
         "test.ts"
