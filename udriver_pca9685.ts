@@ -204,7 +204,7 @@ namespace SUPCA908041 {
 
             analog_write(8, brightness)
 
-            serial.writeValue("leds1", leds1)
+          //  serial.writeValue("leds1", leds1)
 
 
 
@@ -214,7 +214,7 @@ namespace SUPCA908041 {
             //  analog_write(2, 0)
             analog_write(9, brightness)
 
-            serial.writeValue("leds1", leds1)
+          //  serial.writeValue("leds1", leds1)
 
         }
 
@@ -223,7 +223,7 @@ namespace SUPCA908041 {
 
             analog_write(9, brightness)
 
-            serial.writeValue("leds1", leds1)
+           // serial.writeValue("leds1", leds1)
 
         }
 
