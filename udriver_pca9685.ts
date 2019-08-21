@@ -265,14 +265,14 @@ namespace SUPCA908041 {
             if (speed > 0) {
                 speed2 = speed
                 analog_write(2, speed2)
-                digital_write(3, 0)
-                digital_write(4, 1)
+                digital_write(3, 1)
+                digital_write(4, 0)
             }
             else {
                 speed2 = 0 - speed
                 analog_write(2, speed2)
-                digital_write(3, 1)
-                digital_write(4, 0)
+                digital_write(3, 0)
+                digital_write(4, 1)
             }
 
             //   serial.writeValue("motor", motor)
@@ -307,8 +307,8 @@ namespace SUPCA908041 {
             if (speed > 0) {
                 speed2 = speed
                 analog_write(2, speed2)
-                digital_write(3, 0)
-                digital_write(4, 1)
+                digital_write(3, 1)
+                digital_write(4, 0)
 
                 analog_write(5, speed2)
                 digital_write(6, 1)
@@ -319,8 +319,8 @@ namespace SUPCA908041 {
             else {
                 speed2 = 0 - speed
                 analog_write(2, speed2)
-                digital_write(3, 1)
-                digital_write(4, 0)
+                digital_write(3, 0)
+                digital_write(4, 1)
 
                 analog_write(5, speed2)
                 digital_write(6, 0)
