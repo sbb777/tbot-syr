@@ -356,6 +356,11 @@ namespace SUPCA908041 {
             pins.digitalWritePin(DigitalPin.P8, stopMode);
             pins.digitalWritePin(DigitalPin.P12, stopMode);
          */
+        digital_write(3, stopMode)
+        digital_write(4, stopMode)
+
+        digital_write(6, stopMode)
+        digital_write(7, stopMode)
 
     }
 
