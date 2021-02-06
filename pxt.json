@@ -5,22 +5,11 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "neopixel": "github:microsoft/pxt-neopixel#v0.6.10"
+        "neopixel": "github:microsoft/pxt-neopixel"
     },
     "files": [
-        "README.md",
-        "main.ts",
-        "udriver_pca9685.cpp",
-        "udriver_pca9685.h",
-        "udriver_pca9685.ts",
-        "ReceiverIR.cpp",
-        "ReceiverIR.h",
-        "RemoteIR.h",
-        "TransmitterIR.cpp",
-        "TransmitterIR.h",
-        "maqueenIR.cpp",
-        "shims.d.ts",
-        "enums.d.ts"
+        "README.md",      
+        "udriver_pca9685.ts"      
     ],
     "testFiles": [
         "test.ts"
